@@ -56,3 +56,12 @@ This is because the getOption method uses implicit return of an object, where se
 18. Added Auth Validations schemas using zod
 19. Defined the auth logic inside auth controller and called from auth routes
 20. Defined utility function for Validation formatting
+21. Install bcrypt using npm install
+
+### Notes on destructioning
+
+- [ newUser ] - this is how we destructure values from a array
+- { name, user } - this is how we destructure an object
+
+22. Created function in auth service to hash function using brcypt and logic to create user in database with drizzle orm
+23. Added logic to create user in auth controllers
