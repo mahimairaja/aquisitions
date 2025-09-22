@@ -33,8 +33,8 @@
 14. Added sign up, sign in and sign out routes to auth routers.
 15. Setuped postman to intereated with the post requests.
 
-
 ### Types of import available
+
 - Default import ≈ from module import thing as any_name (but JS marks which one is default).
 - Named import ≈ from module import a, b.
 - Namespace import ≈ import module as utils.
@@ -43,3 +43,14 @@
 
 16. Added jwt utils with a JS Object that have sign and verify methods in it.
 
+## Cookies
+
+### Notes on returns in JS method
+
+- `getOption` returns () => ({})
+- But `set` method return () => {}
+
+This is because the getOption method uses implicit return of an object, where set/clear method uses {} to represents the block bodies.
+
+17. Defined the methods for cookie interations in utils (getOption, set, clear, get)
+18. 
