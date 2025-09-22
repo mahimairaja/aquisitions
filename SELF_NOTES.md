@@ -24,3 +24,5 @@
 
 11. Installed helmet and added it to use express as middleware
 12. Installed morgan and added json, urlencoded, and morgan combined with streams as middleware.
+13. Installed cors and cookie-parser and added to main app as middlewares
+14.
