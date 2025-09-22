@@ -41,4 +41,5 @@
 - Side‑effect import ≈ import module when you only need top-level effects.
 - Dynamic import ≈ importlib.import_module('module') (async in JS).
 
-16. 
+16. Added jwt utils with a JS Object that have sign and verify methods in it.
+
