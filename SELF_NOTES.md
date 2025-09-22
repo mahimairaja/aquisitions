@@ -12,6 +12,15 @@
 8. Generated and migrated database using cli
 
 ---
+
 ## Logging
+
 9. Installed winston and defined the logging configs in config/logger.js
 10. added the import alias for all modules in src/config from imports section in package json
+
+---
+
+## Middlewares
+
+11. Installed helmet and added it to use express as middleware
+12. Installed morgan and added json, urlencoded, and morgan combined with streams as middleware.
