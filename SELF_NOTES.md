@@ -1,7 +1,5 @@
 # What all I did
 
-----
-
 ## session 1 (6:30am to 8am)
 
 1. First initaled the node env using npm init -y
