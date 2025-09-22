@@ -53,4 +53,6 @@
 This is because the getOption method uses implicit return of an object, where set/clear method uses {} to represents the block bodies.
 
 17. Defined the methods for cookie interations in utils (getOption, set, clear, get)
-18. 
+18. Added Auth Validations schemas using zod
+19. Defined the auth logic inside auth controller and called from auth routes
+20. Defined utility function for Validation formatting
