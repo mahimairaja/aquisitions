@@ -32,3 +32,13 @@
 
 14. Added sign up, sign in and sign out routes to auth routers.
 15. Setuped postman to intereated with the post requests.
+
+
+### Types of import available
+- Default import ≈ from module import thing as any_name (but JS marks which one is default).
+- Named import ≈ from module import a, b.
+- Namespace import ≈ import module as utils.
+- Side‑effect import ≈ import module when you only need top-level effects.
+- Dynamic import ≈ importlib.import_module('module') (async in JS).
+
+16. 
