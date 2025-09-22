@@ -10,5 +10,8 @@
 6. Defined drizzle.config.js and database connection in config/database.js and added the table to models/user.model.js
 7. Added drizzle commands ( generate, migrate, studio ) to package json
 8. Generated and migrated database using cli
-----
 
+---
+## Logging
+9. Installed winston and defined the logging configs in config/logger.js
+10. added the import alias for all modules in src/config from imports section in package json
